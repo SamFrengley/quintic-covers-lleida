@@ -1,0 +1,6 @@
+{
+  "universal_coefficient_table_substitution_identity": true,
+  "integer_coefficients_no_division": true,
+  "characteristic_two_supported_by_integral_identity": true,
+  "native_magma_executed": false
+}

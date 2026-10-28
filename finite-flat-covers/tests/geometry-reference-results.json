@@ -1,0 +1,61 @@
+{
+  "degree_6_local_generators": [
+    4,
+    4,
+    6,
+    6,
+    5
+  ],
+  "t**6 - t - 1": {
+    "discriminant": "49781",
+    "associative": true,
+    "affine_ring_and_no_infinity": true,
+    "primes_checked": [
+      2,
+      3,
+      5,
+      7
+    ]
+  },
+  "t**6": {
+    "discriminant": "0",
+    "associative": true,
+    "affine_ring_and_no_infinity": true,
+    "primes_checked": [
+      2,
+      3,
+      5,
+      7
+    ]
+  },
+  "degree_7_local_generators": [
+    5,
+    5,
+    8,
+    8,
+    7,
+    6
+  ],
+  "t**7 - t - 1": {
+    "discriminant": "-776887",
+    "associative": true,
+    "affine_ring_and_no_infinity": true,
+    "primes_checked": [
+      2,
+      3,
+      5,
+      7
+    ]
+  },
+  "t**7": {
+    "discriminant": "0",
+    "associative": true,
+    "affine_ring_and_no_infinity": true,
+    "primes_checked": [
+      2,
+      3,
+      5,
+      7
+    ]
+  }
+}

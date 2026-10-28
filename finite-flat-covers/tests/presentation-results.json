@@ -1,0 +1,17 @@
+{
+  "reported_equations_identified_exactly": 10,
+  "reported_presentation": "Algebra: ten quadrics, five fibre coordinates",
+  "universal_model_equations_compared": 5,
+  "model_fibre_variables": 4,
+  "model_cox_variables": 6,
+  "model_equations_on_canonical_point": [
+    "-x*f",
+    "-f",
+    "0",
+    "0",
+    "0"
+  ],
+  "affine_chart_is_polynomial_quotient": true,
+  "example_coefficient_degree_checks": 18,
+  "native_magma_execution": false
+}

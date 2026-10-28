@@ -1,0 +1,735 @@
+{
+  "rational_function_characteristic_2_fibres": [
+    {
+      "variables": [
+        "u"
+      ],
+      "trace_pairing_rank": 6,
+      "associativity": true,
+      "specialized_inclusion_multiplicative": true,
+      "fractional_basis_pivot": [
+        "1/u",
+        "1",
+        "1/u",
+        "0",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "variables": [
+        "u",
+        "v"
+      ],
+      "trace_pairing_rank": 6,
+      "associativity": true,
+      "specialized_inclusion_multiplicative": true,
+      "fractional_basis_pivot": [
+        "1/(u + v)",
+        "1",
+        "1/(u + v)",
+        "0",
+        "0",
+        "1"
+      ]
+    }
+  ],
+  "integer_models": 24,
+  "integer_closure_agrees_with_independent_HNF": true,
+  "integer_cases": [
+    {
+      "source_discriminant": "1",
+      "index": 64,
+      "factor": 1,
+      "primitive_defect": [
+        "0",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "source_discriminant": "2869",
+      "index": 64,
+      "factor": 1,
+      "primitive_defect": [
+        "1",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "source_discriminant": "0",
+      "index": 32,
+      "factor": 4,
+      "primitive_defect": null
+    },
+    {
+      "source_discriminant": "0",
+      "index": 32,
+      "factor": 4,
+      "primitive_defect": null
+    },
+    {
+      "source_discriminant": "22629602441467008",
+      "index": 64,
+      "factor": 1,
+      "primitive_defect": [
+        "0",
+        "1",
+        "0",
+        "1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "source_discriminant": "764115053051120892224",
+      "index": 64,
+      "factor": 1,
+      "primitive_defect": [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "source_discriminant": "272133805403152",
+      "index": 64,
+      "factor": 1,
+      "primitive_defect": [
+        "0",
+        "1",
+        "1",
+        "1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "source_discriminant": "0",
+      "index": 32,
+      "factor": 4,
+      "primitive_defect": null
+    },
+    {
+      "source_discriminant": "389078331617569123008",
+      "index": 64,
+      "factor": 1,
+      "primitive_defect": [
+        "0",
+        "1",
+        "1",
+        "1",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "source_discriminant": "-1042445875677444864",
+      "index": 32,
+      "factor": 4,
+      "primitive_defect": null
+    },
+    {
+      "source_discriminant": "-6797541719473109219700",
+      "index": 64,
+      "factor": 1,
+      "primitive_defect": [
+        "0",
+        "1",
+        "1",
+        "1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "source_discriminant": "2383240576057344",
+      "index": 32,
+      "factor": 4,
+      "primitive_defect": null
+    },
+    {
+      "source_discriminant": "-8243673703432096",
+      "index": 64,
+      "factor": 1,
+      "primitive_defect": [
+        "0",
+        "1",
+        "0",
+        "1",
+        "1",
+        "0"
+      ]
+    },
+    {
+      "source_discriminant": "30632763201808968945",
+      "index": 64,
+      "factor": 1,
+      "primitive_defect": [
+        "0",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "source_discriminant": "32518733656227840",
+      "index": 32,
+      "factor": 4,
+      "primitive_defect": null
+    },
+    {
+      "source_discriminant": "1153232630799631104",
+      "index": 32,
+      "factor": 4,
+      "primitive_defect": null
+    },
+    {
+      "source_discriminant": "25119081412585726372",
+      "index": 64,
+      "factor": 1,
+      "primitive_defect": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0"
+      ]
+    },
+    {
+      "source_discriminant": "-2202989505935676190720",
+      "index": 32,
+      "factor": 4,
+      "primitive_defect": null
+    },
+    {
+      "source_discriminant": "-2215024721839043983327",
+      "index": 64,
+      "factor": 1,
+      "primitive_defect": [
+        "1",
+        "1",
+        "0",
+        "0",
+        "1",
+        "0"
+      ]
+    },
+    {
+      "source_discriminant": "1708744585060806313",
+      "index": 64,
+      "factor": 1,
+      "primitive_defect": [
+        "0",
+        "0",
+        "1",
+        "0",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "source_discriminant": "2441410386176",
+      "index": 64,
+      "factor": 1,
+      "primitive_defect": [
+        "0",
+        "1",
+        "1",
+        "1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "source_discriminant": "-404048432723892992",
+      "index": 64,
+      "factor": 1,
+      "primitive_defect": [
+        "0",
+        "1",
+        "1",
+        "0",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "source_discriminant": "61805112208110011232",
+      "index": 64,
+      "factor": 1,
+      "primitive_defect": [
+        "0",
+        "1",
+        "1",
+        "1",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "source_discriminant": "58782684427774265",
+      "index": 64,
+      "factor": 1,
+      "primitive_defect": [
+        "0",
+        "1",
+        "0",
+        "1",
+        "1",
+        "1"
+      ]
+    }
+  ],
+  "split_corrected_ring": "Z^6, explicit unimodular evaluation basis",
+  "characteristic_2_squarefree_monic_quintics": 16,
+  "characteristic_2_frobenius_tests": [
+    {
+      "coefficients": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "quintic_factors": [
+        1,
+        4
+      ],
+      "sextic_factors": [
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "coefficients": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "quintic_factors": [
+        1,
+        1,
+        3
+      ],
+      "sextic_factors": [
+        3,
+        3
+      ]
+    },
+    {
+      "coefficients": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "quintic_factors": [
+        1,
+        4
+      ],
+      "sextic_factors": [
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "coefficients": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "quintic_factors": [
+        1,
+        1,
+        3
+      ],
+      "sextic_factors": [
+        3,
+        3
+      ]
+    },
+    {
+      "coefficients": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "quintic_factors": [
+        1,
+        4
+      ],
+      "sextic_factors": [
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "quintic_factors": [
+        1,
+        4
+      ],
+      "sextic_factors": [
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "quintic_factors": [
+        2,
+        3
+      ],
+      "sextic_factors": [
+        6
+      ]
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "quintic_factors": [
+        5
+      ],
+      "sextic_factors": [
+        1,
+        5
+      ]
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "quintic_factors": [
+        5
+      ],
+      "sextic_factors": [
+        1,
+        5
+      ]
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "quintic_factors": [
+        1,
+        4
+      ],
+      "sextic_factors": [
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "quintic_factors": [
+        5
+      ],
+      "sextic_factors": [
+        1,
+        5
+      ]
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "quintic_factors": [
+        2,
+        3
+      ],
+      "sextic_factors": [
+        6
+      ]
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "quintic_factors": [
+        1,
+        4
+      ],
+      "sextic_factors": [
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "quintic_factors": [
+        5
+      ],
+      "sextic_factors": [
+        1,
+        5
+      ]
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "quintic_factors": [
+        5
+      ],
+      "sextic_factors": [
+        1,
+        5
+      ]
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "quintic_factors": [
+        5
+      ],
+      "sextic_factors": [
+        1,
+        5
+      ]
+    }
+  ],
+  "alternative_lifts_compared": 16,
+  "polynomial_families": [
+    {
+      "coefficients": [
+        "-t",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "index": 64,
+      "factor": 1,
+      "primitive_defect": [
+        "t",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "integral_basis": [
+        [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-2*t",
+          "0",
+          "1/4",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-2",
+          "1/2",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/2",
+          "0"
+        ],
+        [
+          "-2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/2"
+        ]
+      ]
+    },
+    {
+      "coefficients": [
+        "t + 1",
+        "t",
+        "t + 1",
+        "t**2",
+        "t",
+        "1"
+      ],
+      "index": 64,
+      "factor": 1,
+      "primitive_defect": [
+        "t**6 + t**5 + t**4 + t**3 + t**2 + t + 1",
+        "t**3 + t**2 + 1",
+        "t**2 + t + 1",
+        "0",
+        "t + 1",
+        "t**2"
+      ],
+      "integral_basis": [
+        [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "t**6/2 + t**5/2 + t**4/2 + t**3/2 + t**2*(-3*t**5 + t**4 - 7*t**3/2 - 3*t**2 + 7*t + 7/2)/2 + t**2/2 + t/2 + (t/2 + 1/2)*(t**5 + 5*t**4 - 13*t**3 - 10*t**2 + 3*t) + (t**2/2 + t/2 + 1/2)*(-2*t**3 - 5*t**2 + 5*t + 5) + (-3*t**4 - 5*t**2 - 3*t)*(t**3/2 + t**2/2 + t + 1/2) + 1/2",
+          "t**3/4 + t**2/4 + t/2 + 1/4",
+          "t**2/4 + t/4 + 1/4",
+          "0",
+          "t/4 + 1/4",
+          "t**2/4"
+        ],
+        [
+          "t*(-2*t**3 - 5*t**2 + 5*t + 5) + (t**2 + 1)*(-3*t**4 - 5*t**2 - 3*t)",
+          "t**2/2 + 1/2",
+          "t/2",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "7*t**3 + t**2/2 - t - 3/2",
+          "0",
+          "0",
+          "1/2",
+          "0",
+          "0"
+        ],
+        [
+          "t**5 + 5*t**4 - 13*t**3 - 10*t**2 + 3*t",
+          "0",
+          "0",
+          "0",
+          "1/2",
+          "0"
+        ],
+        [
+          "-3*t**5 + t**4 - 7*t**3/2 - 3*t**2 + 7*t + 7/2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/2"
+        ]
+      ]
+    }
+  ],
+  "integral_action_lattice_comparisons": 10,
+  "native_magma_executed": false,
+  "scope": "Z and Z[t] reference implementation; characteristic-2 residue algebras from integral lifts"
+}

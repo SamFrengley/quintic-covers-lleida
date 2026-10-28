@@ -1,0 +1,126 @@
+{
+  "package_version": "16.0.1",
+  "native_magma_executed": false,
+  "native_magma_compiled": false,
+  "native_magma_reason": "This independent Python runner does not compile or invoke Magma. No local Magma executable was available during authoring.",
+  "environment": {
+    "python": "3.13.5",
+    "sympy": "1.14.0"
+  },
+  "executed_independent_suites": {
+    "action-reference-results": {
+      "command": "python tests/action_reference.py",
+      "status": "passed",
+      "python_seconds": 1.101,
+      "result_file": "action-reference-results.json"
+    },
+    "twisted-results": {
+      "command": "python tests/twisted_reference.py",
+      "status": "passed",
+      "python_seconds": 1.507,
+      "result_file": "twisted-results.json"
+    },
+    "quadratic-action-results": {
+      "command": "python tests/quadratic_action_reference.py",
+      "status": "passed",
+      "python_seconds": 0.019,
+      "result_file": "quadratic-action-results.json"
+    },
+    "projective-weight-results": {
+      "command": "python tests/projective_weight_reference.py",
+      "status": "passed",
+      "python_seconds": 1.403,
+      "result_file": "projective-weight-results.json"
+    },
+    "fractional-action-results": {
+      "command": "python tests/fractional_action_reference.py",
+      "status": "passed",
+      "python_seconds": 0.014,
+      "result_file": "fractional-action-results.json"
+    },
+    "static-audit-results": {
+      "command": "python tests/static_audit.py",
+      "status": "passed",
+      "python_seconds": 0.174,
+      "result_file": "static-audit-results.json"
+    }
+  },
+  "historical_not_rerun": [
+    "prime-fibre-results",
+    "presentation-results",
+    "reference-results",
+    "geometry-reference-results",
+    "monogenic-low-results",
+    "monogenic-high-results",
+    "constructor-results",
+    "resolvent-results",
+    "corrected-resolvent-results"
+  ],
+  "native_tests_provided": [
+    "magma -b tests/v16_only.m",
+    "magma -b tests/v15_only.m",
+    "magma -b tests/v14_only.m",
+    "magma -b tests/v12_only.m",
+    "magma -b tests/v11_only.m",
+    "magma -b tests/v10_only.m",
+    "magma -b tests/smoke.m",
+    "magma -b tests/run.m",
+    "magma -b tests/benchmark.m"
+  ],
+  "important_limit": "Independent mathematical and textual checks do not establish native language/API correctness.",
+  "suite_count": 6,
+  "source_sha256": {
+    "src/actions/characters.m": "9c12e8c3c9c4166b9d848663067a17753ed72c6d7a4338029e03c3fbac6d9a51",
+    "src/actions/descent.m": "d2acecc4e105c5fcab7d0da103a46b9b8e56872ec52f56e38174b1d69d567ccd",
+    "src/actions/operators.m": "c8cf34027b6ca6e20abb683d0b5b8239366282ff03fdf820e17af1215fe7ef21",
+    "src/actions/partial_resolution.m": "bdc3d3f183949eee906dcc220116987ab5ccee8f3949e4f17f82b0c31b488314",
+    "src/actions/resolutions.m": "b24a4eaae7da80c57c845744b5a4c4f4772ea9de69b9fc8a3ea41281799397b8",
+    "src/actions/tensors.m": "c11810986606b338b92a6b5fff67d97ccfbbbf4e6c5ae33e5637fcc9694ce863",
+    "src/algebra/access.m": "531d13d8dcf84ff023dbe3c2cd3f588f0f61167688c87c64fba94cd911e1f3c6",
+    "src/algebra/basis.m": "5882eea5333b49b567c78e77c2b90dc450e32a82b6f3ad8a14fcc9706b84e845",
+    "src/algebra/invariants.m": "9942bcfdd7ccd12859517f7067bfb13fe6acfb593cf901f2a403641c3f3df3f1",
+    "src/algebra/tables.m": "40aa413b4019293f80d06a3502cda7645851027c9ec36033479f2a88807dc57b",
+    "src/base_change/maps.m": "b96366fc97a8fd2ca1f6d749cd728adfcaea6248e1895e6e8f1b1900922c9009",
+    "src/base_change/primes.m": "d5a95cc3a50d46a99a5b8cea607a89536c0730a9fdffcca26b5f6437d3055098",
+    "src/base_change/projective.m": "912abe673ace8ef371e8eeeff317ccb352f43dbb1e6934a1e4324d8391bd07da",
+    "src/constructors/algebras.m": "bf37e8a39de8f9d67f2c60381ef1aa4422c8b2a20c43accfc5431e59fab73f87",
+    "src/constructors/model_ordering.m": "16fa7d428dc01c81332030fa0983303755f24722a52d3d12dd72c35036c05119",
+    "src/constructors/polynomial_weights.m": "25c056154cf8d55917ad7ed545a5f3bba21a5b76b7700f3224b65fefa289ba07",
+    "src/constructors/polynomials.m": "381f76663509752604db25e180191ff2099ac7f985d331599b92b6f46d305263",
+    "src/constructors/rebuild.m": "d9f62f18389801ef36d7b1dbc3f17a47eb027d99789f7c80e0eef0949df8d7a8",
+    "src/constructors/resolutions.m": "39ae4cfd854c8247ff6ee4ae2da5931731275bf1b148b9666b9d240981f16f32",
+    "src/constructors/tensors.m": "149bec2933ceb70c1a493237d773a9c8b250fac6ac4847058648e9ecd4d9530e",
+    "src/core/access.m": "a5679610faa9620372c42519fdafe95c5fbcb61bca0a8024c6dcfd76a2f3893b",
+    "src/core/arithmetic.m": "fd3f90cad053b7644c1942c115022d45683b646ad63c41768291a90ab653f1d6",
+    "src/core/bundles.m": "827c8f7bacf1a9e25dc5e72f3942eaf33193c5d7e6798f0cac78f64e347cdf36",
+    "src/core/grading.m": "96a5dcc358ac714ed6a55a79940a274b43cda69be3a301fd29db840cfe98a20b",
+    "src/core/maps.m": "883a27c4091b4a224ff4b82a8a64fe6653da7a89244cafda8df913633f87f351",
+    "src/core/names.m": "e0d363e986f00637fab0d44604acee6b307df654ece4b221b1e0b2089ba523b9",
+    "src/core/type.m": "c17a8425f11f3a6754493a9b89b8ab84306e55e81be026f13732935820e2ecc2",
+    "src/data/resolvent_indices.m": "6d85c0e6fa66ffe415d2a0e4bdf021d50ba1e1b715a88bc8d82f99becff73215",
+    "src/data/seed_difference.m": "912e3669214811e5ce04443b3586f9e2447d3bc28d17eccf6ef0ef032c819f21",
+    "src/data/seed_distinct.m": "b8c42c73396fa15f0dafd509dcd9b98e6f326d67b8520ae323a84e2a27e611b7",
+    "src/data/seed_square_diagonal.m": "877cd6f3239f892232f20fe39aa4a8811673071e924b12ea3f53c346c8a920b0",
+    "src/data/seed_square_other.m": "e92915658b5351f0caf4a8f308ffafa63d6d63ebe3bbf5d910619e46d0281e3d",
+    "src/data/seeds.m": "0f14ac1fe12211c2c5857809403f6453766ab7e3ce1877825420913c14e011cc",
+    "src/experimental/characteristic_two.m": "658c8a39d744e4263048e1732df7c76db139f4c371d17b9d80ce4f7ef39e9c21",
+    "src/experimental/charts.m": "ac14057204b5cb466569a59d59afee078521498141447ac358b4347f4064b493",
+    "src/experimental/deferred.m": "a5bd2c9604578abda82499ca29e8410463ff8995af7a7dae6ae19ff83a5e0797",
+    "src/experimental/envelope.m": "f4edf035010303a80c9d873ded584d82fbabd62aa4adc2393fe08cf4391535ec",
+    "src/experimental/sextic.m": "6258a4d19243ab0781386145ca89626175e711127270947176f91ab56e84502b",
+    "src/geometry/charts.m": "5b4a6d04a348536f4d2c2b95daf6ca0be9a35b1398ece987aff98a3ff65e2718",
+    "src/geometry/equations.m": "7dc014143e97185c15307ebfd9047d5440964c7e6de97f0e1cfc176066537175",
+    "src/geometry/schemes.m": "f0ab489619b863572cafaf0046d949239a21691f06b714eac1635c14eaf4bb4d",
+    "src/geometry/shape.m": "3cb5adf12ffc0ba407e0d2ab08ba19326c00dcf583f12e80718bf465863b7e5b",
+    "src/models/forms.m": "095a00d0361023c418326ae9337aaadef6246e4485f76b27c503a9d01ff6ceb4",
+    "src/models/multiplication.m": "a386f77c4927c9a0b92f5e82395888eb23cd6a36eb4c7fff91f4651d7e6cf70b",
+    "src/resolution/access.m": "21e8b9338504e0de2cfeb94b999cf72dddc90ea3601b4c759b8e0344db36cd58",
+    "src/resolution/constants.m": "0a47bd84a545db6c869f2e1b219218f815d72792291684ef25cbb51897d893a5",
+    "src/resolution/format.m": "1ccc4ab8b875632de7d8d82a786e0b94f54c5881935c8d491b555ea7224e593c",
+    "src/resolution/kernels.m": "3c50c0e5dc200558f98472936109f44e63c2fa4052c394472867879fd301649d",
+    "src/resolvents/classical.m": "eace64c9b7b2dfdd8c51829dea2aacfba15e5f93112599b92b064d1cf4d4ea59",
+    "src/resolvents/deferred.m": "453866e7ea6a3f270c45b8d32e9093a9b1beb3ab6eac6d8ee6b1c041d759630b",
+    "src/resolvents/minors.m": "e2613f6808eae7dc08ab87e4d3561eba0141560be8bff046811c075fad28c736",
+    "src/resolvents/verify.m": "0826d4e5b9ea64f553d454d1116a560c7c779f6de3252e6c23f6280d9f44fcb2"
+  }
+}

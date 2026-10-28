@@ -1,0 +1,6 @@
+{
+  "cubic_actions_and_full_cache_transport": 24,
+  "quartic_actions_cache_transport_and_FR_compatibility": 10,
+  "quintic_actions_cache_transport_and_FR_compatibility": 8,
+  "FV_twisted_actions_and_cache_transport": 4
+}

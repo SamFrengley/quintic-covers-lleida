@@ -1,0 +1,46 @@
+{
+  "6_mixed": {
+    "polynomial": "t**6 + 2*t**4 - 3*t**2 + t + 1",
+    "basis_determinant": "-1",
+    "all_products": 36,
+    "primes": [
+      2,
+      3,
+      5,
+      7
+    ]
+  },
+  "6_nilpotent": {
+    "polynomial": "t**6",
+    "basis_determinant": "-1",
+    "all_products": 36,
+    "primes": [
+      2,
+      3,
+      5,
+      7
+    ]
+  },
+  "7_mixed": {
+    "polynomial": "t**7 + 2*t**5 - 3*t**2 + t + 1",
+    "basis_determinant": "-1",
+    "all_products": 49,
+    "primes": [
+      2,
+      3,
+      5,
+      7
+    ]
+  },
+  "7_nilpotent": {
+    "polynomial": "t**7",
+    "basis_determinant": "-1",
+    "all_products": 49,
+    "primes": [
+      2,
+      3,
+      5,
+      7
+    ]
+  }
+}

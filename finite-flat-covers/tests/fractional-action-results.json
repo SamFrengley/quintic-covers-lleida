@@ -1,0 +1,18 @@
+{
+  "cubic_fractional_descent": true,
+  "projective_degree_zero_fractional_action": true,
+  "projective_weight_changing_action": true,
+  "target_weights_after_1_over_s": [
+    0,
+    0
+  ],
+  "inconsistent_row_detected": true,
+  "nonintegral_projective_result_detected": true,
+  "nonhomogeneous_rational_entry_detected": true,
+  "quintic_weight_change": {
+    "variable_weight": 5,
+    "row_weight": -8,
+    "matrix_twist": 21
+  },
+  "quintic_central_fractional_scaling": "r"
+}

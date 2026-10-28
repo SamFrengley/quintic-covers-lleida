@@ -1,0 +1,14 @@
+AttachSpec("spec");
+P<z> := PolynomialRing(Integers());
+C := FiniteFlatCover(z^5-z-1 : ProjectiveBase := false);
+print C;
+assert not assigned C`StructureConstants;
+assert not assigned C`Discriminant;
+T := StructureConstants(C);
+print CachedComputations(C);
+B := Resolvent(C);
+assert Degree(B) eq 6;
+assert not assigned C`Discriminant;
+assert not assigned B`Discriminant;
+print Discriminant(C);
+quit;

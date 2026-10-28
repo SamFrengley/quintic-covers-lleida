@@ -1,0 +1,58 @@
+{
+  "cubic_universal_identity": true,
+  "characteristic_2_discriminant_algebra_not_determined_by_discriminant": true,
+  "cubic_samples_with_normalization_and_twisted_untwisted_characters": 10,
+  "quartic_chains_with_covariance_and_four_small_primes": 9,
+  "integral_seed_derivation": {
+    "distinct": {
+      "raw_monomials": 6467,
+      "integral_monomials": 1440,
+      "coefficientwise_division_by_2304_verified": true,
+      "universal_bundle_multiweights_verified": true
+    },
+    "square_other": {
+      "raw_monomials": 4257,
+      "integral_monomials": 916,
+      "coefficientwise_division_by_2304_verified": true,
+      "universal_bundle_multiweights_verified": true
+    },
+    "difference": {
+      "raw_monomials": 9703,
+      "integral_monomials": 2013,
+      "coefficientwise_division_by_2304_verified": true,
+      "universal_bundle_multiweights_verified": true
+    },
+    "square_diagonal": {
+      "raw_monomials": 10027,
+      "integral_monomials": 2143,
+      "coefficientwise_division_by_2304_verified": true,
+      "universal_bundle_multiweights_verified": true
+    },
+    "embedded_magma_constants_match_rederived_formulas": true
+  },
+  "quintic_to_sextic_integral_samples": 9,
+  "fresh_small_characteristic_evaluations": {
+    "count": 36,
+    "primes": [
+      2,
+      3,
+      5,
+      7
+    ],
+    "uses_no_inverse_of_2_or_3": true
+  },
+  "split_order": {
+    "explicit_integral_ring_isomorphism": true,
+    "index_in_Z6": 64,
+    "multiplication_identities": 36,
+    "discriminant": 4096
+  },
+  "sextic_twisted_untwisted_and_orientation_transport_cases": 15,
+  "Z_u_family": {
+    "polynomial": "z^5-z-u",
+    "source_discriminant": "3125*u**4 - 256",
+    "sextic_trace_discriminant": "4096*(3125*u**4 - 256)**3",
+    "all_multiplication_identities": true
+  },
+  "native_magma_executed": false
+}

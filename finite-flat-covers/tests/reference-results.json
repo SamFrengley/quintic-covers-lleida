@@ -1,0 +1,10 @@
+{
+  "degree_4_associativity_and_reduction": 120,
+  "degree_5_associativity_and_reduction": 120,
+  "monogenic_quintic_charpoly_discriminant": 3,
+  "quartic_and_resolvent_discriminants": 3,
+  "degree_4_graded_structure_constants": true,
+  "degree_5_graded_structure_constants": true,
+  "universal_pfaffian_syzygy": true,
+  "universal_quartic_associativity": true
+}

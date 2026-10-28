@@ -1,0 +1,78 @@
+{
+  "user_quintic_e_frame": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "user_quintic_f_frame": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "nonzero_quintic_entries_checked": 14,
+  "pfaffian_relative_degrees": [
+    -2,
+    -3,
+    -4,
+    -5,
+    -6
+  ],
+  "pfaffian_coefficient_degree_checks": 18,
+  "ordered_monogenic_products_checked": 25,
+  "ordered_basis_determinant": "1",
+  "quartic_e_frame": [
+    1,
+    2,
+    3
+  ],
+  "quartic_f_frame": [
+    2,
+    4
+  ],
+  "formal_degree_2_through_5": {
+    "2": {
+      "e": [
+        1
+      ],
+      "f": []
+    },
+    "3": {
+      "e": [
+        1,
+        2
+      ],
+      "f": []
+    },
+    "4": {
+      "e": [
+        1,
+        2,
+        3
+      ],
+      "f": [
+        2,
+        4
+      ]
+    },
+    "5": {
+      "e": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "f": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  "negative_weight_sorting_checked": true,
+  "native_magma_executed": false
+}

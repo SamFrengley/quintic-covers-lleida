@@ -1,0 +1,40 @@
+{
+  "source_modules": 52,
+  "maximum_source_lines": 437,
+  "maximum_algorithm_lines": 201,
+  "public_attributes": [
+    "CoefficientRing",
+    "DefiningPolynomials",
+    "Degree",
+    "Discriminant",
+    "Embedding",
+    "Model",
+    "ProjectiveBase",
+    "StructureConstants",
+    "Twisted",
+    "UnderlyingScheme"
+  ],
+  "implementation_record_attributes": [
+    "_Data"
+  ],
+  "undefined_fields_or_imports": [],
+  "import_graph_acyclic": true,
+  "intrinsic_blocks_checked": 75,
+  "discriminant_getter_callers": [
+    "Discriminant",
+    "VerifyResolvent"
+  ],
+  "constructor_direct_expensive_calls": false,
+  "legacy_Base_option_removed": true,
+  "coordinate_ring_X_names": true,
+  "base_change_names_preserved": true,
+  "homogeneous_prime_images_not_ratios": true,
+  "native_ambient_uses_named_polynomial_ring": true,
+  "split_invariants_do_not_call_expensive_getters": true,
+  "permuted_minor_rank_cases": 25200,
+  "native_files_checked_as_text": 42,
+  "uniform_model_constructor_defaults": true,
+  "algebra_accessors_do_not_assign_embedding": true,
+  "cached_equation_shapes_checked": true,
+  "native_compilation_or_execution": false
+}

@@ -1,0 +1,28 @@
+{
+  "exact_quintic_factorization": "(x-r1)^2*(x-r2)^2*(x-r3)",
+  "roots": [
+    "-249*s/4 + 17*t/4",
+    "141*s/4 - 9*t/4",
+    "-202*s + 14*t"
+  ],
+  "root_multiplicities": [
+    2,
+    2,
+    1
+  ],
+  "reported_component_coefficients_matched": 6,
+  "weighted_linear_component_equations_verified": 6,
+  "pfaffian_equations_specialized": 5,
+  "scheme_chart_equals_polynomial_quotient": true,
+  "points_at_infinity": false,
+  "relative_jacobian_ranks": [
+    2,
+    2,
+    3
+  ],
+  "reduced_non_smooth_fibre_degree": 2,
+  "first_double_root_smooth_on_total_curve": true,
+  "second_double_root_singular_on_total_curve": true,
+  "homogeneous_normal_form_cases": 66,
+  "native_magma_execution": false
+}

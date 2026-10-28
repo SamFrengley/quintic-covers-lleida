@@ -1,0 +1,7 @@
+{
+  "quadratic_full_product_and_cache_transport_cases": 24,
+  "cubic_cases": 16,
+  "quartic_cases_including_Wood_reparametrization": 20,
+  "quintic_cases": 16,
+  "higher_resolution_cases": 8
+}

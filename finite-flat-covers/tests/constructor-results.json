@@ -1,0 +1,40 @@
+{
+  "forms_with_vanishing_x_n_coefficient": {
+    "Y^2": {
+      "rank": 2,
+      "basis_determinant": "1",
+      "quotient": "Z[t]/t^2"
+    },
+    "Y^3": {
+      "rank": 3,
+      "basis_determinant": "-1",
+      "quotient": "Z[t]/t^3"
+    },
+    "Y^4": {
+      "rank": 4,
+      "basis_determinant": "1",
+      "quotient": "Z[t]/t^4"
+    },
+    "Y^5": {
+      "rank": 5,
+      "basis_determinant": "1",
+      "quotient": "Z[t]/t^5"
+    },
+    "Y^6": {
+      "rank": 6,
+      "basis_determinant": "1",
+      "quotient": "Z[t]/t^6"
+    },
+    "Y^7": {
+      "rank": 7,
+      "basis_determinant": "1",
+      "quotient": "Z[t]/t^7"
+    }
+  },
+  "nonprimitive_and_mod2_square_zero_ranks": [
+    6,
+    7,
+    8,
+    9
+  ]
+}
